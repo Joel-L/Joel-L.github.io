@@ -5,39 +5,50 @@
 </head>
 <body>
   <h1>Some stuff about some great sages</h1>
+<header>
   <nav>
     <a href="lineage.html" alt="lineage">Lineage</a>
     <a href="photos.html" alt="photos">Photos</a>
   </nav>
-  <div>
-  <p> <em>This site has some info about the great sages who have influenced my meditative life. It is not exhaustive, but puts some visuals to the story. Check out the form if you have an questions or suggestions.</em> </p>
-  </div>
+  <p><em>This site has some info about the great sages who have influenced my meditative life. It is not exhaustive, but puts some visuals to the story. Check out the form if you have an questions or suggestions.</em></p>
+</header>
   <section>
     <h2>Kriya Yoga</h2>
     <p>Many people have read Paramahamsa Yogananda's <em>Autobiography of a Yogi</em> and therefore heard of Kriya Yoga and its associated lineage. I was one of those people, and began to do some research into the method and its founders. Through this search, I met Narayana Baba, who eventually led me to Gurudev.</p>
   </section>
   <section>
-    <p> Narayana Baba's website is <a href="http://www.narayanababa.com"> here </a>. 
+    <p> Narayana Baba's website is <a href="http://www.narayanababa.com"> here </a>.</p>
+    <p><em>For Solo challenge 2.5, I am reviewing Narayana's website</em>
+      <ul>
+        <li><STRONG>PRO:</STRONG> I like how each section is clearly commented in. It makes it easy to see how the designer put things together, and you can see how that might be useful in updates. There is a lot of spacing in the code as well, which I like for similar reasons.</li>
+        <li><strong>CON:</strong>I'm on the fence about how many meta tags there are. I understand it, but for whatever reason I chafe at that. The big complaint I have is, for how organized the rest of the code is, the <code>li</code> elements are not clearly segregated. If this is best practice, I don't like it because it isn't very readable.</li> 
+      </ul>
+    </p>
     <p> <a href="http://waltzinghorses.blogspot.com/">Sue Eoff</a> has an ongoing documentation of her journey as well.</p>
   </section>
     <form action="submit.html" method="post">
     <fieldset>
-      <legend>Personal Info</legend>
+      <legend>Ask a question</legend>
       <label for="name">Name:</label>
-      <input id="name" type="text">
+      <input id="name" type="text" placeholder="name">
         <div>
           <label for="email">E-Mail</label>
-          <input id="email" type="mail">
+          <input id="email" type="mail" placeholder="email address">
         </div>
         <div>
           <label for="question">Have a question?</label>
           <input id="question" type="textarea" placeholder="Ask or Comment Here">
+        </div>
+        <div class="button">
+          <label for="button" alt="add to mailing list">Would you like to be on the mailing list?</label><br>
+          <input type="radio" name="yes" value="yes">Yes ;)<br>
         </div>
       <div class="button">
         <button type="submit">ASK ME</button>
       </div>
     </fieldset>
     </form>
+    <p><em>Come back soon! We'll be adding info on the different paths and more.</em></p>
 <footer>
   <a href="lineage.html">LINEAGE</a>
   <a href="photos.html">PHOTOS</a>
