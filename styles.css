@@ -1,4 +1,84 @@
 body {
   width: 100%;
-  background-color: pink;
+  max-width: 960px;
+  background-color: #BEC8CC;
+  background-image: url("Polygon.jpg");
+}
+
+h1 {
+  width: 100%;
+  display: inline-block;
+  font-family: helvetica;
+  text-align: center;
+}
+
+section {
+  padding-left: 15px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1.8px;
+}
+
+@media only screen and (max-width: 400px) {
+  section {
+    font-size: 110%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+      font-size: 125%;
+    }
+}
+
+.main {
+  width: 65%;
+  vertical-align: text-top;
+  display: inline-block;
+}
+
+#sidebar {
+  width: 25%;
+  vertical-align: text-top;
+  display: inline-block;
+  background-color: lavender;
+  float: left;
+}
+
+a:visited {
+  font-family: helvetica;
+  color: grey;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+img {
+  width: 75%;
+}
+
+figure {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+figcaption {
+  width: 75%;
+  margin-bottom: 25px;
+  font-style: italic;
+  text-align: center;
+}
+
+.return {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+
+footer {
+  width: 100%;
+  margin-left: 28%;
+  margin-right: 28%;
 }
