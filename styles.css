@@ -58,12 +58,12 @@ img {
   width: 75%;
 }
 
-figure {
+div.photos {
   margin-left: 20%;
   margin-right: 20%;
 }
 
-figcaption {
+p.caption {
   width: 75%;
   margin-bottom: 25px;
   font-style: italic;
